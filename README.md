@@ -1,4 +1,4 @@
-# Laravel Phone
+# Pin-Generator
 
 This composer package is for Laravel to create a unique identifier, In this instance, a PIN (personal identification number), suitable for use with door locks, etc. Each time the code executes, it return at least one PIN, that has adhered to the following:
     
