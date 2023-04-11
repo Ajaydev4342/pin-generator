@@ -1,0 +1,22 @@
+{
+    "name": "ajaydev/pin-generator",
+    "autoload": {
+        "psr-4": {
+            "Tests\\": "tests/",
+            "Ajaydev\\PinGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ajay dev",
+            "email": "Ajaydev4342@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "illuminate/testing": "^8.0"
+    }
+}
