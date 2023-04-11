@@ -49,10 +49,11 @@ in this array of providers
 
 ```php
 'providers' => [
-    // Other service providers
+    // add this line below to this provider array
     AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
 ],
 ```
+this line
 
 ```php
 AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
