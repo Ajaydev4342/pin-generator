@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 class PinGeneratorServiceProvider extends ServiceProvider
 {
     protected $defer = true;
-
+ 
     public function register()
     {
         $this->app->bind('pin-generator', function () {

@@ -69,7 +69,7 @@ class PinGeneratorTest extends TestCase
         for ($i=1; $i <= 73; $i++) { 
             $pin = $this->pin_generate->generatePin(2);
             array_push($generated_numbers, $pin);
-        }
+        } 
         $this->assertEquals(count($generated_numbers), count(array_unique($generated_numbers)));
     }
 

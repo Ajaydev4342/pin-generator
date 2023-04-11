@@ -17,4 +17,4 @@ programmatically to account for the following restrictions, but allow for additi
     o As an example, 4942 would be a PIN that passes these 3 restrictions.
         • This package will provide the PINs in an apparently random order.
         • This package will not repeat a PIN until all the preceding valid PINs have been utilised - even if the solution is stopped and started between PINs being returned.
-        • You can specify the lenght of the pin e.g. 4, 6, 7, 12-digit pins. But the recommendation will be to not use a very big number.
+        • You can specify the lenght of the pin e.g. 4, 6, 7, 12-digit pins. But the recommendation will be to not use a very big number. 

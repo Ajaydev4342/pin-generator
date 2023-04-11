@@ -120,7 +120,7 @@ class PinGenerator
 
             $prevDigit = $digit;
         }
-
+ 
         return true;
     }
 

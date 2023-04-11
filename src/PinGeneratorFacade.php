@@ -9,5 +9,5 @@ class PinGeneratorFacade extends Facade
     protected static function getFacadeAccessor()
     {
         return PinGenerator::class;
-    }
+    } 
 }
