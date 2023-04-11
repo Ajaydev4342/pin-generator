@@ -45,21 +45,21 @@ And after succesfully downloading this package add service provider to your
 <project_root>/config/app.php
 
 ```php
-'AjayDev\PinGenerator\PinGeneratorServiceProvider::class,'
+AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
 ```
 
 ## Usage
 
-After completion the above mentioned steps you just need to use this facade [Usage]
+After completion the above mentioned steps you just need to use this facade in your controller
 
 ```php
-'use AjayDev\PinGenerator\PinGeneratorFacade;'
+use AjayDev\PinGenerator\PinGeneratorFacade;
 ```
 
-and after this simple 
+and after this simply 
 
 ```php
-'$pin = PinGeneratorFacade::generatePin(2);  #at the place of two you can pass your length as per your requirement by default it will be 4 if you remove 2'
+$pin = PinGeneratorFacade::generatePin(2);  #at the place of two you can pass your length as per your requirement by default it will be 4 if you remove 2
 ```
 
 That's it you are are good to go.
