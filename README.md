@@ -25,8 +25,8 @@ programmatically to account for the following restrictions, but allow for additi
 
 - [Support](#Support)
 - [Installation](#installation)
-- [Unit Test cases](#UnitTestCases)
 - [Usage](#Usage)
+- [Unit Test cases](#UnitTestCases)
 
 ## Support
 
@@ -49,14 +49,6 @@ And after succesfully downloading this package add service provider to your
 AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
 ```
 
-## UnitTestCases
-
-If you want you can run and see all the test cases working perfectly or not with this command in you root project directory.
-
-```php
-php artisan test vendor/ajaydev/pin-generator/tests/PinGeneratorTest.php
-```
-
 ## Usage
 
 After completion the above mentioned steps you just need to use this facade in your controller
@@ -69,6 +61,14 @@ and after this simply
 
 ```php
 $pin = PinGeneratorFacade::generatePin(2);  #at the place of two you can pass your length as per your requirement by default it will be 4 if you remove 2
+```
+
+## UnitTestCases ( Optional )
+
+If you want you can run and see all the test cases working perfectly or not with this command in you root project directory.
+
+```php
+php artisan test vendor/ajaydev/pin-generator/tests/PinGeneratorTest.php
 ```
 
 That's it you are are good to go.
