@@ -47,10 +47,12 @@ And after succesfully downloading this package add service provider to your
 
 in this array of providers 
 
+```php
 'providers' => [
     // Other service providers
     AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
 ],
+```
 
 ```php
 AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
