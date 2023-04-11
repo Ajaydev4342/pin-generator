@@ -13,7 +13,7 @@
             "email": "Ajaydev4342@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "illuminate/support": "^8.0"
     },
