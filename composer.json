@@ -13,13 +13,7 @@
             "email": "Ajaydev4342@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {
-        "illuminate/support": "^8.0"
-    },
-    "require-dev": {
-        "illuminate/testing": "^8.0"
-    },
+    "minimum-stability": "dev",
     "license": "MIT"
 }
 
