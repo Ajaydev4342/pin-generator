@@ -25,6 +25,7 @@ programmatically to account for the following restrictions, but allow for additi
 
 - [Support](#Support)
 - [Installation](#installation)
+- [Unit Test cases](#UnitTestCases)
 - [Usage](#Usage)
 
 ## Support
@@ -46,6 +47,14 @@ And after succesfully downloading this package add service provider to your
 
 ```php
 AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
+```
+
+## UnitTestCases
+
+If you want you can run and see all the test cases working perfectly or not with this command in you root project directory.
+
+```php
+php artisan test vendor/ajaydev/pin-generator/tests/PinGeneratorTest.php
 ```
 
 ## Usage
