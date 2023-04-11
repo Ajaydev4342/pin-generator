@@ -1,4 +1,5 @@
 {
+    "vendor/package": "1.0.0",
     "name": "ajaydev/pin-generator",
     "autoload": {
         "psr-4": {
@@ -13,6 +14,12 @@
         }
     ],
     "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "illuminate/testing": "^8.0"
+    },
     "license": "MIT"
 }
 
