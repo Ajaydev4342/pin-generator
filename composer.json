@@ -1,5 +1,5 @@
 {
-    "ajaydev/pin-generator": "1.0.0",
+    "ajaydev/pin-generator": "1.0.0-beta",
     "name": "ajaydev/pin-generator",
     "autoload": {
         "psr-4": {
