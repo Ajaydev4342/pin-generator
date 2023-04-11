@@ -18,6 +18,7 @@
     },
     "require-dev": {
         "illuminate/testing": "^8.0"
-    }
+    },
+    "license": "MIT"
 }
 
