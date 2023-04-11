@@ -30,7 +30,7 @@ programmatically to account for the following restrictions, but allow for additi
 
 ## Support
 
-Supported PHP versions are from ^7.2.5 till ^8.2
+Supported PHP versions are from ^7.2.5 till ^8.2 <br>
 Supported Laravel versions are from 8+
 
 ## Installation
