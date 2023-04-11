@@ -45,6 +45,13 @@ And after succesfully downloading this package add service provider to your
 
 <project_root>/config/app.php
 
+in this array of providers 
+
+'providers' => [
+    // Other service providers
+    AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
+],
+
 ```php
 AjayDev\PinGenerator\PinGeneratorServiceProvider::class,
 ```
