@@ -13,6 +13,10 @@
             "email": "Ajaydev4342@gmail.com"
         }
     ],
+    "require": {
+        "php": "^7.2.5|^8.2",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
+    },
     "minimum-stability": "dev",
     "license": "MIT"
 }
